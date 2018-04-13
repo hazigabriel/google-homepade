@@ -95,7 +95,7 @@ input {
 	color:333;
 }
 .search-box img {
-	position: aboslute;
+	position: absolute;
 	margin: -1.9% 63.5%;
 }
 form input:focus, form input:hover {
@@ -130,6 +130,43 @@ form input:focus, form input:hover {
 	text-align: center;
 	margin-top: 27px;
 }
+
 .options a {
 	color: #1a0dab;
+	font-size: 13.5px;
+}
+.options p {
+	font-size:13.5px;
+}
+/* FOOTER */
+.footer {
+	width:100%;
+	position: fixed;
+	bottom: 0;
+
+}
+.footer a, .footer p {
+	font-size: 1.2 em;
+	color: rgba(0,0,0,.54);
+	margin: 0 13px;
+}
+.footer p {
+	padding: 10px 0 0 15px;
+	font-size: 15px;
+}
+.footer div {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 40px;
+}
+.footer .bottom {
+
+}
+.footer .left {
+	float:left;
+	padding: 11px 0 0 15px;
+}
+.footer .right {
+	float:right;
+	padding: 11px 15px 0 0;
 }
